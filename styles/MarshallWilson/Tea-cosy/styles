@@ -1,0 +1,555 @@
+/* New Git File */
+
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+/* Basic styling */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.site-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Hide the hamburger toggle by default on larger screens */
+.menu-toggle {
+  display: none;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo{
+    height: 69px;
+    width: 1000px;
+    margin-left: 20px;
+    text-align: left;
+    
+}
+.banner {
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/Users/marshallwilson/Documents/web study notes/Tea Cozy/img/img-mission-background.jpeg');
+}
+
+.banner-text
+    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 1200px;
+    }
+
+.banner-text h2
+    {
+    margin: 10px;
+}
+
+.banner-text h4 {
+    margin: 10px;
+}
+
+nav{
+     display: flex;
+     justify-content: flex-end;
+     height: 69px;
+     width: 100%;
+     background-color: black;
+     padding-right: 20px;
+     position: fixed;
+     z-index: 100;
+     top: 0px;
+     left: 0;
+     right: 0px;
+}
+
+
+.mobile-menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 4px 0;
+}
+
+
+.header.mobile-menu-open .navbar {
+    display: flex;
+}
+
+a {
+    color: skyblue;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    text-decoration: underline;
+}
+
+li a:hover {
+  color: #bdb8bb;
+  text-decoration: underline;
+}
+
+li a:active{
+  color: red;
+  text-decoration: underline;
+}
+
+.featured-teas{
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin: 20px auto;
+}
+
+.featured-teas h2{
+    margin: 20px 0px 20px 0px;
+}
+
+.featured-teas h4{
+    margin: 10px 0px 5px 0px;
+}
+
+
+.tea-item img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.teas {
+    display: flex;
+    width: 1000px;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    margin: 20px auto;
+}
+
+.tea-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(30% - 10px);
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 300px;
+    margin: 20px 10px;
+}
+
+
+.locations {
+    background-image: url('/Users/marshallwilson/Documents/web study notes/Tea Cozy/img/img-locations-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.location-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 300px;
+    margin: 15px auto;
+    position: relative;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    width: 1000px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+footer{
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    margin-left: 20px;;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color:black;
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+nav{
+     display: flex;
+     justify-content: flex-end;
+     height: 69px;
+     width: 100%;
+     background-color: black;
+     padding-right: 20px;
+     position: fixed;
+     z-index: 100;
+     top: 0px;
+     left: 0;
+     right: 0px;
+}
+
+ .banner {  
+        max-width: 100%;
+        height: 700px;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url('/Users/marshallwilson/Documents/web study notes/Tea Cozy/img/img-mission-background.jpeg');
+    } 
+
+
+.contact {
+    display: flex;
+    width: 700px;
+    height: 136px;
+    margin: 20px auto;
+}
+
+ .banner-text {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+.banner-text h2, .featured h2, .locate h2, .contact h2{
+        font-size: 24px;
+    }
+
+.tea-item h3, .location-item h3{
+        font-size: 20px;
+    }
+
+.bannner-text h4, .featured h4 {
+        font-size: 18px;
+    }
+
+.location-item h5{
+        font-size: 16px;
+    }
+
+
+.featured-teas{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin: 20px auto;
+}
+
+.featured-teas h2{
+    margin: 20px auto;
+}
+
+.featured-teas h4{
+    margin: 5px auto;
+}
+
+.teas { 
+       display: flex;
+       width: 700px;
+       flex-direction: column;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+    }
+
+
+  .location-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 200px;
+    margin: 15px auto;
+    position: relative;
+    }
+
+.contact {
+    display: flex;
+    width: auto;
+    height: 136px;
+    margin: 35px auto;
+   }
+}
+
+
+
+/* Start media query for 768px tablets and smaller devices */
+
+@media only screen and (max-width: 768px) {
+
+  .menu-toggle {
+    display: block; /* Show the hamburger menu icon */
+  }
+
+  .nav-links {
+    display: none; /* Hide the navigation links */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    position: absolute;
+    top: 60px; 
+    left: 0;
+    background-color: #444;
+    text-align: right;
+  }
+
+  .nav-links.active {
+    display: flex; /* Show the menu when the "active" class is added by JavaScript */
+  }
+
+  .nav-links li a {
+    padding: 1rem;
+    border-bottom: 1px solid #555;
+  }
+
+
+ .banner {  
+    width: 100%;
+    height: 700px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/Users/marshallwilson/Documents/web study notes/Tea Cozy/img/img-mission-background.jpeg');
+    }
+
+
+ .banner-text {
+    width: 100%;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    }
+
+
+.featured-teas{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin: 20px auto;
+}
+
+.banner-text h2 {
+    margin:5px auto
+}
+
+.teas{  
+       display: flex;
+       width: 500px;
+       flex-direction: column;
+    }
+
+  .tea-item img{
+    width: 150px;
+    height: 100px
+  }
+
+  .location-item
+{
+    width: 125px;
+
+}
+
+ .location-item h3 {
+        font-size: 16px;
+}       
+
+.location-item h5 {
+        font-size: 12px;
+}
+
+  h2.locate, .contact h2, .banner-text h2, .featured h2, .locate h2{
+        font-size: 20px;
+}
+
+.banner-text h4, .featured h4 {
+        font-size: 16px;
+}
+
+.contact h5, footer h5 {
+        font-size: 14px;
+    }
+
+
+.contact {
+    display: flex;
+    width: auto;
+    height: 136px;
+    margin: 35px auto;
+   }
+
+ .contact h5, footer h5 {
+        font-size: 14px;
+    }
+}
+
+/* End media query for 768px tablets and smaller devices */
+
+/* Start media query for 480px tablets and smaller devices */
+
+@media only screen and (max-width: 480px) {
+
+
+ .banner {  
+    width: 100%;
+    height: 700px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/Users/marshallwilson/Documents/web study notes/Tea Cozy/img/img-mission-background.jpeg');
+}
+
+ .featured {
+    display: flex;
+    row-gap: 20px;
+    width: 389px;
+}
+
+ .banner-text {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+.banner-text h2, .featured h2, .contact h2, h2.locate{ 
+        font-size: 18px;
+    }
+
+.banner-text h4, .featured h4 {
+        font-size: 14px;
+    }
+
+ .teas{
+         width: auto;
+         flex-direction: column;
+    }
+
+.tea-item h3 {
+        font-size: 16px;
+    }
+
+.tea-item img{
+    width: 100px;
+    height: 67px    
+  }
+
+  .locations {
+    background-image: url('/Users/marshallwilson/Documents/web study notes/Tea Cozy/img/img-locations-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.location-item {  
+    width: 100px;
+    flex-basis: auto;
+  }
+
+  .location-item h3, footer {
+        font-size: 16px;
+    }       
+
+.location-item h5, .contact h5, footer .h5 {
+        font-size: 12px;
+    }
+
+.contact {
+text-align: center;
+width: 100%
+}
+
+.contact h5, footer h5 {
+        font-size: 14px;
+    }
+
+/* End media query for 480px tablets and smaller devices */
+
+
