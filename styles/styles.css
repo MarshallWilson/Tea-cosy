@@ -67,7 +67,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('/Users/marshallwilson/Documents/web study notes/Tea Cozy/img/img-mission-background.jpeg');
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
 }
 
 .banner-text
@@ -191,7 +191,7 @@ li a:active{
 
 
 .locations {
-    background-image: url('/Users/marshallwilson/Documents/web study notes/Tea Cozy/img/img-locations-background.jpeg');
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -263,7 +263,7 @@ nav{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-image: url('/Users/marshallwilson/Documents/web study notes/Tea Cozy/img/img-mission-background.jpeg');
+        background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
     } 
 
 
@@ -385,7 +385,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('/Users/marshallwilson/Documents/web study notes/Tea Cozy/img/img-mission-background.jpeg');
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
     }
 
 
@@ -479,7 +479,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('/Users/marshallwilson/Documents/web study notes/Tea Cozy/img/img-mission-background.jpeg');
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
 }
 
  .featured {
@@ -516,7 +516,7 @@ nav{
   }
 
   .locations {
-    background-image: url('/Users/marshallwilson/Documents/web study notes/Tea Cozy/img/img-locations-background.jpeg');
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
